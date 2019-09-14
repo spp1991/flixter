@@ -1,0 +1,96 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+body{
+  background : image_url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.navbar{
+  padding:0.05rem 1rem;
+}
+
+.navbar {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 200;
+  font-heigth: 25px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+
+.navbar a.navbar-brand{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  font-weight : 100;  
+  color:#ec971f;
+}
+
+
+.hero{
+  background:image_url("hero.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height : 370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h4, h5, h6, .navbar {
+  margin: 0;
+  color: white;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color:white;
+  border-radius : 1%;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+.btn {
+  border-radius: 0;
+}
+
+.feature {
+  width :100%;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding:10 px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+  color:black;
+}
+
+
+.invalid-feedback {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+}
+
+.clr {
+  clear:both;
+}
