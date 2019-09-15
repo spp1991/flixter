@@ -20,7 +20,7 @@ class Instructor::LessonsController < ApplicationController
   end
 
   def lessonparams
-    params.require(:lesson).permit(:title,:subtitle)
+    params.require(:lesson).permit(:title,:subtitle, :video)
   end
 
   helper_method :current_section
