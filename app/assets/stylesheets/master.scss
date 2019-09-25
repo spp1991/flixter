@@ -1,5 +1,7 @@
 @import "bootstrap";
+@import "font-awesome";
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
 
 body{
   background : image_url('bg.png');
@@ -93,4 +95,65 @@ h1, h2, h4, h5, h6, .navbar {
 
 .clr {
   clear:both;
+}
+
+.lesson {
+  background-color : black;
+  margin-top: 10px;
+  height: 130px;
+}
+
+.lesson a{
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  font-size:15px;
+}
+.section {
+  border:1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding:20px;
+}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding:20px;
+  margin:20px;
+}
+
+ul .header{
+  font-size:25px;
+}
+
+ul .header .fa{
+  font-size:20px;
+}
+
+.lessons li{
+  background:black;
+  color:white;
+  margin:10px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding:8px;
+  font-size:15px;
+}
+
+.lessons li b{
+  font-size:25px;
+  font-weight:100;
+}
+
+.lessons li p{
+  margin:0;
 }
