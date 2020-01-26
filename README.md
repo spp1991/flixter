@@ -21,7 +21,16 @@ Note : Please execute commands to install all gems ('bundle install') and create
 To checkout the application, click [here](https://grammable-sunnypatel.herokuapp.com/) 
 
 ## Home Page
-<img src="screenshot-home.png" alt="Screenshot">
+<img src="screenshot-home.png" alt="Screenshot Home">
 
-## Course Administrator
-<img src="Screenshot-course-administrator.png.png" alt="Screenshot">
+## Course Listing Page (Administrator)
+<img src="Screenshot-course-administrator.png" alt="Course Page Administrator">
+
+## Course Page (Student)
+<img src="screenshot-course-student.png" alt="Course Page Student">
+
+## Lesson Page (Student)
+<img src="screenshot-lesson-page.png" alt="Student Lesson Page">
+
+## Payment Page (Student)
+<img src="stripe-payment-page.png" alt="Payment Page">
