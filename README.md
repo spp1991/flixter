@@ -27,10 +27,10 @@ To checkout the application, click [here](https://grammable-sunnypatel.herokuapp
 <img src="Screenshot-course-administrator.png" alt="Course Page Administrator">
 
 ## Course Page (Student)
-<img src="screenshot-course-student.png" alt="Course Page Student">
+<img src="screenshot-course-student.PNG" alt="Course Page Student">
 
 ## Lesson Page (Student)
-<img src="screenshot-lesson-page.png" alt="Student Lesson Page">
+<img src="screenshot-lesson-page.PNG" alt="Student Lesson Page">
 
 ## Payment Page (Student)
-<img src="stripe-payment-page.png" alt="Payment Page">
+<img src="stripe-payment-page.PNG" alt="Payment Page">
