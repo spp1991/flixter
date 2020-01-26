@@ -7,13 +7,19 @@
   <% end %>
   <br />
   <div class="row">
-    <div class="col-12 col-sm-4">
+    <div class="col-12 col-sm-8" style="border-right: 2px groove grey;">
+      <br/>        
+      <%= @course.description %>
+
+      Course Fee:
       <span class="badge badge-default">
-        <%= number_to_currency @course.cost %>
+         <%= number_to_currency @course.cost %>
       </span>
-      
+
+    </div>
+    <div class="col-12 col-sm-4 text-center">
+
       <% if current_user && current_user==@course.user %>
-        <br />
         <br />
         <%= link_to "Administrator",instructor_course_path(@course),class: 'btn btn-danger btn-large' %>
         <br />
@@ -42,9 +48,8 @@
       <% end %>
       
     </div>
-    <div class="col-12 col-sm-8">
-      <%= @course.description %>
-    </div>
+    <br/>
+
   </div>
 
   <div class="col-12">
