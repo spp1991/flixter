@@ -18,7 +18,7 @@ Cloud Storage Platform ; Amazon Web Service (AWS)
 
 Note : Please execute commands to install all gems ('bundle install') and create/migrate database/tables('rails db:create , rails db:migrate') before git repository of this application is downloaded and used to run on local server 
 
-To checkout the application, click [here](https://grammable-sunnypatel.herokuapp.com/) 
+To checkout the application, click [here](https://flixter-sunny-patel.herokuapp.com/) 
 
 ## Home Page
 <img src="screenshot-home.png" alt="Screenshot Home">
