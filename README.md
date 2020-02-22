@@ -8,7 +8,7 @@ Functionalities include:
 - Allowing students to view the course and enroll 
 - Integration of feature to pay course fee via credit card 
 
-[Try it yourself](https://flixter-sunny-patel.herokuapp.com/) 
+##[Try it yourself](https://flixter-sunny-patel.herokuapp.com/) 
 
 
 ## Getting Started
